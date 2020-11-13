@@ -52,7 +52,13 @@
                         <li><a href="#">Shortcodes</a></li>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Contact</a></li>
-                        <li><a href="#"><img src="images/icon_search.png" alt=""></a></li>
+                        <li class="search">
+                            <a href="#"><img src="images/icon_search.png" alt=""></a>
+                            <form action="">
+                                <input type="text" placeholder="">
+                                <button type="submit">Search</button>
+                            </form>
+                        </li>
                         <li><a href="#"><img src="images/icon_cart.png" alt=""></a></li>
                     </ul>
                 </div>
@@ -89,22 +95,31 @@
                         <a href="#" class="view">VIEW DETAIL</a>
                     </div>
                     <div class="item-he">
-                        <div class="acccodion ">
-                            <a href="#">Web Design Service</a>
-                        </div>
-                        <div class="acccodion ">
-                            <a href="#" >Creative Service</a>
+                        <section id="accodion1" class="accodion">
+                            <a href="#accodion1">Web Design Service</a>
+                            <div class="content-acc other">
+                                <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet est non massa aliquet dictum eget eu sem. Cras ornare quam et lorem luctus, et dapibus lectus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Mauris luctus imperdiet purus vel bibendum.</p>
+                            </div>
+                        </section>
+                        <section id="accodion2" class="accodion">
+                            <a href="#accodion2" >Creative Service</a>
                             <div class="content-acc">
                                 <img src="images/quacam.png" alt="">
                                 <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie erat at nisl volutpat pulvinar. Sed in egestas dolor. Maecenas vestibulum dignissim dictum. Donec ipsum quam, sagittis et sem vel, volutpat tempor mi. Aliquam consectetur justo dui. Sed in egestas dolor. </p>
                             </div>
-                        </div>
-                        <div class="acccodion ">
-                            <a href="#">SEO Solutions Service</a>
-                        </div>
-                        <div class="acccodion ">
-                            <a href="#">Graphic Design Service</a>
-                        </div>
+                        </section>
+                        <section id="accodion3" class="accodion">
+                            <a href="#accodion3">SEO Solutions Service</a>
+                            <div class="content-acc">
+                                <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet est non massa aliquet dictum eget eu sem. Cras ornare quam et lorem luctus, et dapibus lectus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Mauris luctus imperdiet purus vel bibendum.</p>
+                            </div>
+                         </section>
+                        <section id="accodion4" class="accodion">
+                            <a href="#accodion4">Graphic Design Service</a>
+                            <div class="content-acc">
+                                <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet est non massa aliquet dictum eget eu sem. Cras ornare quam et lorem luctus, et dapibus lectus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Mauris luctus imperdiet purus vel bibendum.</p>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -445,5 +460,6 @@
            </div>
        </div>
     </footer>
+    <a href="" class="backtotop"><img src="images/chevron-up.png" alt=""></a>
 </body>
 </html>
