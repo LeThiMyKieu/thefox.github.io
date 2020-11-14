@@ -693,8 +693,8 @@ a.backtotop{
 }
 @media screen and (max-width: 798px) {
     .container {
-        padding-right: 5%;
-        padding-left: 5%;
+        padding-right: 4%;
+        padding-left: 4%;
     }
     .content-acc,
     .why .list-item{
@@ -750,10 +750,11 @@ a.backtotop{
     }
     .caption h3 {
         font-size: 28px;
+        line-height: 30px;
     }
     .caption a {
         padding: 10px 17px;
-        margin-top: 20px;
+        margin-top: 40px;
         font-size: 14px;
     }
     .hello,
@@ -809,5 +810,13 @@ a.backtotop{
     .top-menu form {
         bottom: -5%;
         right: 7%;
+    }
+}
+@media screen and (max-width: 360px){
+    .bot-footer .container p {
+        line-height: 33px;
+    }
+    .bot-footer ul li {
+        padding: 30px 6px;
     }
 }
